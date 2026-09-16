@@ -1,0 +1,1358 @@
+{
+  "studyVersion": "act-evolution-polished-v1",
+  "title": "Video Comparison Study",
+  "trials": [
+    {
+      "id": "trial_001",
+      "itemId": "sample_001",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 0.667,
+          "height": 1.0
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "Simple. Sleek. Daily.",
+            "timeStart": 0.3,
+            "timeEnd": 3.6,
+            "region": {
+              "x": 0.667,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "cta",
+            "text": "Elevate your morning",
+            "timeStart": 3.2,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.667,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v001a",
+        "src": "media/trial_001_a.mp4"
+      },
+      "second": {
+        "code": "v001b",
+        "src": "media/trial_001_b.mp4"
+      }
+    },
+    {
+      "id": "trial_002",
+      "itemId": "sample_002",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.333,
+          "width": 1.0,
+          "height": 0.667
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "WIPE SPILLS AT ONCE",
+            "timeStart": 0.3,
+            "timeEnd": 2.4,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.333
+            }
+          },
+          {
+            "id": "line1",
+            "text": "A wet floor is a slip risk",
+            "timeStart": 2.5,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.333
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v002a",
+        "src": "media/trial_002_a.mp4"
+      },
+      "second": {
+        "code": "v002b",
+        "src": "media/trial_002_b.mp4"
+      }
+    },
+    {
+      "id": "trial_003",
+      "itemId": "sample_003",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 0.58
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "Donate what you outgrow",
+            "timeStart": 0.0,
+            "timeEnd": 1.67,
+            "region": {
+              "x": 0.0,
+              "y": 0.58,
+              "width": 1.0,
+              "height": 0.42
+            }
+          },
+          {
+            "id": "line1",
+            "text": "Toys and clothes find new homes",
+            "timeStart": 1.67,
+            "timeEnd": 3.33,
+            "region": {
+              "x": 0.0,
+              "y": 0.58,
+              "width": 1.0,
+              "height": 0.42
+            }
+          },
+          {
+            "id": "line2",
+            "text": "Reuse beats landfill",
+            "timeStart": 3.33,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.58,
+              "width": 1.0,
+              "height": 0.42
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v003a",
+        "src": "media/trial_003_a.mp4"
+      },
+      "second": {
+        "code": "v003b",
+        "src": "media/trial_003_b.mp4"
+      }
+    },
+    {
+      "id": "trial_004",
+      "itemId": "sample_004",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 0.5
+        },
+        "events": [
+          {
+            "id": "evt_headline_technique",
+            "text": "Tagine Braise",
+            "timeStart": 0,
+            "timeEnd": 1.5,
+            "region": {
+              "x": 0.0,
+              "y": 0.5,
+              "width": 1.0,
+              "height": 0.5
+            }
+          },
+          {
+            "id": "evt_label_pot",
+            "text": "Conical-lid earthenware pot",
+            "timeStart": 1.5,
+            "timeEnd": 2.8,
+            "region": {
+              "x": 0.0,
+              "y": 0.5,
+              "width": 1.0,
+              "height": 0.5
+            }
+          },
+          {
+            "id": "evt_caption_doneness",
+            "text": "Simmer until the sauce reduces",
+            "timeStart": 2.8,
+            "timeEnd": 4.2,
+            "region": {
+              "x": 0.0,
+              "y": 0.5,
+              "width": 1.0,
+              "height": 0.5
+            }
+          },
+          {
+            "id": "evt_note_mechanism",
+            "text": "The lid recirculates steam",
+            "timeStart": 4.2,
+            "timeEnd": 5,
+            "region": {
+              "x": 0.0,
+              "y": 0.5,
+              "width": 1.0,
+              "height": 0.5
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v004a",
+        "src": "media/trial_004_a.mp4"
+      },
+      "second": {
+        "code": "v004b",
+        "src": "media/trial_004_b.mp4"
+      }
+    },
+    {
+      "id": "trial_005",
+      "itemId": "sample_005",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.333,
+          "y": 0.0,
+          "width": 0.667,
+          "height": 1.0
+        },
+        "events": [
+          {
+            "id": "evt_headline_press",
+            "text": "Press to test the smoke alarm",
+            "timeStart": 0,
+            "timeEnd": 2.4,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "evt_note_cadence",
+            "text": "Test alarms monthly",
+            "timeStart": 2.4,
+            "timeEnd": 5,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v005a",
+        "src": "media/trial_005_a.mp4"
+      },
+      "second": {
+        "code": "v005b",
+        "src": "media/trial_005_b.mp4"
+      }
+    },
+    {
+      "id": "trial_006",
+      "itemId": "sample_006",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 0.667
+        },
+        "events": [
+          {
+            "id": "evt_1",
+            "text": "Did you know?",
+            "timeStart": 0.5,
+            "timeEnd": 2.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.667,
+              "width": 1.0,
+              "height": 0.333
+            }
+          },
+          {
+            "id": "evt_2",
+            "text": "Early carrots were purple or yellow",
+            "timeStart": 2.1,
+            "timeEnd": 3.5,
+            "region": {
+              "x": 0.0,
+              "y": 0.667,
+              "width": 1.0,
+              "height": 0.333
+            }
+          },
+          {
+            "id": "evt_3",
+            "text": "Orange came much later",
+            "timeStart": 3.6,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.667,
+              "width": 1.0,
+              "height": 0.333
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v006a",
+        "src": "media/trial_006_a.mp4"
+      },
+      "second": {
+        "code": "v006b",
+        "src": "media/trial_006_b.mp4"
+      }
+    },
+    {
+      "id": "trial_007",
+      "itemId": "sample_007",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": null,
+        "events": [
+          {
+            "id": "headline",
+            "text": "Hadrian's Wall",
+            "timeStart": 0.5,
+            "timeEnd": 2.0,
+            "region": {
+              "x": 0.56,
+              "y": 0.0,
+              "width": 0.44,
+              "height": 0.36
+            }
+          },
+          {
+            "id": "line1",
+            "text": "An ancient Roman frontier wall",
+            "timeStart": 2.1,
+            "timeEnd": 3.5,
+            "region": {
+              "x": 0.56,
+              "y": 0.0,
+              "width": 0.44,
+              "height": 0.36
+            }
+          },
+          {
+            "id": "line2",
+            "text": "A footpath follows the wall for miles",
+            "timeStart": 3.6,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.56,
+              "y": 0.0,
+              "width": 0.44,
+              "height": 0.36
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v007a",
+        "src": "media/trial_007_a.mp4"
+      },
+      "second": {
+        "code": "v007b",
+        "src": "media/trial_007_b.mp4"
+      }
+    },
+    {
+      "id": "trial_008",
+      "itemId": "sample_008",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 0.5
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "FLIP THE SHIELD DOWN BEFORE STRIKING THE ARC",
+            "timeStart": 0.0,
+            "timeEnd": 1.6,
+            "region": {
+              "x": 0.0,
+              "y": 0.5,
+              "width": 1.0,
+              "height": 0.5
+            }
+          },
+          {
+            "id": "line1",
+            "text": "Step 1: Lower the face shield over your face",
+            "timeStart": 1.6,
+            "timeEnd": 3.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.5,
+              "width": 1.0,
+              "height": 0.5
+            }
+          },
+          {
+            "id": "line2",
+            "text": "Step 2: Bring the torch to the metal plate",
+            "timeStart": 3.0,
+            "timeEnd": 4.2,
+            "region": {
+              "x": 0.0,
+              "y": 0.5,
+              "width": 1.0,
+              "height": 0.5
+            }
+          },
+          {
+            "id": "line3",
+            "text": "Arc light can blind",
+            "timeStart": 4.2,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.5,
+              "width": 1.0,
+              "height": 0.5
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v008a",
+        "src": "media/trial_008_a.mp4"
+      },
+      "second": {
+        "code": "v008b",
+        "src": "media/trial_008_b.mp4"
+      }
+    },
+    {
+      "id": "trial_009",
+      "itemId": "sample_009",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 0.5,
+          "height": 1.0
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "Worth knowing",
+            "timeStart": 0.4,
+            "timeEnd": 1.6,
+            "region": {
+              "x": 0.5,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "line1",
+            "text": "The Sahara was once green",
+            "timeStart": 1.7,
+            "timeEnd": 2.9,
+            "region": {
+              "x": 0.5,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "line2",
+            "text": "It had lakes and grassland",
+            "timeStart": 3.0,
+            "timeEnd": 4.1,
+            "region": {
+              "x": 0.5,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "line3",
+            "text": "A vanished green age",
+            "timeStart": 4.2,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.5,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v009a",
+        "src": "media/trial_009_a.mp4"
+      },
+      "second": {
+        "code": "v009b",
+        "src": "media/trial_009_b.mp4"
+      }
+    },
+    {
+      "id": "trial_010",
+      "itemId": "sample_010",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 0.5,
+          "height": 1.0
+        },
+        "events": [
+          {
+            "id": "evt_1",
+            "text": "Sunflower",
+            "timeStart": 0.5,
+            "timeEnd": 2.5,
+            "region": {
+              "x": 0.5,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "evt_2",
+            "text": "Young ones follow the sun",
+            "timeStart": 2.6,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.5,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v010a",
+        "src": "media/trial_010_a.mp4"
+      },
+      "second": {
+        "code": "v010b",
+        "src": "media/trial_010_b.mp4"
+      }
+    },
+    {
+      "id": "trial_011",
+      "itemId": "sample_011",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": null,
+        "events": [
+          {
+            "id": "evt_1",
+            "text": "El Castillo",
+            "timeStart": 0.5,
+            "timeEnd": 2.5,
+            "region": null
+          },
+          {
+            "id": "evt_2",
+            "text": "A temple of the ancient Maya",
+            "timeStart": 2.6,
+            "timeEnd": 5.0,
+            "region": null
+          }
+        ]
+      },
+      "first": {
+        "code": "v011a",
+        "src": "media/trial_011_a.mp4"
+      },
+      "second": {
+        "code": "v011b",
+        "src": "media/trial_011_b.mp4"
+      }
+    },
+    {
+      "id": "trial_012",
+      "itemId": "sample_012",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.333,
+          "y": 0.0,
+          "width": 0.667,
+          "height": 1.0
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "Rose In Bloom",
+            "timeStart": 0.3,
+            "timeEnd": 2.4,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "line1",
+            "text": "Petals spiral from the centre",
+            "timeStart": 2.5,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v012a",
+        "src": "media/trial_012_a.mp4"
+      },
+      "second": {
+        "code": "v012b",
+        "src": "media/trial_012_b.mp4"
+      }
+    },
+    {
+      "id": "trial_013",
+      "itemId": "sample_013",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": null,
+        "events": [
+          {
+            "id": "evt_1",
+            "text": "The Parthenon",
+            "timeStart": 0.5,
+            "timeEnd": 2.5,
+            "region": null
+          },
+          {
+            "id": "evt_2",
+            "text": "A temple of ancient Greece",
+            "timeStart": 2.6,
+            "timeEnd": 5.0,
+            "region": null
+          }
+        ]
+      },
+      "first": {
+        "code": "v013a",
+        "src": "media/trial_013_a.mp4"
+      },
+      "second": {
+        "code": "v013b",
+        "src": "media/trial_013_b.mp4"
+      }
+    },
+    {
+      "id": "trial_014",
+      "itemId": "sample_014",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 0.667,
+          "height": 1.0
+        },
+        "events": [
+          {
+            "id": "evt_lightning_label",
+            "text": "Lightning",
+            "timeStart": 0.6,
+            "timeEnd": 2.2,
+            "region": {
+              "x": 0.667,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "evt_electric_discharge",
+            "text": "Electric discharge",
+            "timeStart": 2.3,
+            "timeEnd": 3.7,
+            "region": {
+              "x": 0.667,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "evt_storm_cloud_label",
+            "text": "Storm cloud",
+            "timeStart": 3.8,
+            "timeEnd": 5,
+            "region": {
+              "x": 0.667,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v014a",
+        "src": "media/trial_014_a.mp4"
+      },
+      "second": {
+        "code": "v014b",
+        "src": "media/trial_014_b.mp4"
+      }
+    },
+    {
+      "id": "trial_015",
+      "itemId": "sample_015",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.5,
+          "y": 0.0,
+          "width": 0.5,
+          "height": 1.0
+        },
+        "events": [
+          {
+            "id": "evt_1",
+            "text": "Owl",
+            "timeStart": 0.5,
+            "timeEnd": 2.5,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "evt_2",
+            "text": "Many owls hunt at night",
+            "timeStart": 2.6,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v015a",
+        "src": "media/trial_015_a.mp4"
+      },
+      "second": {
+        "code": "v015b",
+        "src": "media/trial_015_b.mp4"
+      }
+    },
+    {
+      "id": "trial_016",
+      "itemId": "sample_016",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.5,
+          "y": 0.0,
+          "width": 0.5,
+          "height": 1.0
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "Worth knowing",
+            "timeStart": 0.5,
+            "timeEnd": 2.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "line1",
+            "text": "Butterflies taste with their feet",
+            "timeStart": 2.1,
+            "timeEnd": 3.5,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "line2",
+            "text": "Their legs sense flavors",
+            "timeStart": 3.6,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.5,
+              "height": 1.0
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v016a",
+        "src": "media/trial_016_a.mp4"
+      },
+      "second": {
+        "code": "v016b",
+        "src": "media/trial_016_b.mp4"
+      }
+    },
+    {
+      "id": "trial_017",
+      "itemId": "sample_017",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.5,
+          "width": 1.0,
+          "height": 0.5
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "Say it in German",
+            "timeStart": 0.0,
+            "timeEnd": 1.2,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.5
+            }
+          },
+          {
+            "id": "line1",
+            "text": "Baum = Tree",
+            "timeStart": 1.3,
+            "timeEnd": 3.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.5
+            }
+          },
+          {
+            "id": "line2",
+            "text": "Ein Baum",
+            "timeStart": 3.1,
+            "timeEnd": 4.2,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.5
+            }
+          },
+          {
+            "id": "line3",
+            "text": "German for tree",
+            "timeStart": 4.3,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.5
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v017a",
+        "src": "media/trial_017_a.mp4"
+      },
+      "second": {
+        "code": "v017b",
+        "src": "media/trial_017_b.mp4"
+      }
+    },
+    {
+      "id": "trial_018",
+      "itemId": "sample_018",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.5,
+          "width": 1.0,
+          "height": 0.5
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "Skim the stock",
+            "timeStart": 0.0,
+            "timeEnd": 2.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.5
+            }
+          },
+          {
+            "id": "line1",
+            "text": "Bare simmer, lift off the grey scum",
+            "timeStart": 2.0,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.5
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v018a",
+        "src": "media/trial_018_a.mp4"
+      },
+      "second": {
+        "code": "v018b",
+        "src": "media/trial_018_b.mp4"
+      }
+    },
+    {
+      "id": "trial_019",
+      "itemId": "sample_019",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 0.667,
+          "height": 1.0
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "Standing Side Bend",
+            "timeStart": 0.3,
+            "timeEnd": 2.4,
+            "region": {
+              "x": 0.667,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "line1",
+            "text": "Reach up, then lean over",
+            "timeStart": 2.5,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.667,
+              "y": 0.0,
+              "width": 0.333,
+              "height": 1.0
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v019a",
+        "src": "media/trial_019_a.mp4",
+        "groundTruth": {
+          "durationSeconds": 5,
+          "canvas": {
+            "width": 832,
+            "height": 480
+          },
+          "subjectRegion": {
+            "x": 0.3329,
+            "y": 0.0,
+            "width": 0.6671,
+            "height": 1.0
+          },
+          "events": [
+            {
+              "id": "headline",
+              "text": "Bounce Into Lunge",
+              "timeStart": 0.3,
+              "timeEnd": 2.0,
+              "region": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.3329,
+                "height": 1.0
+              }
+            },
+            {
+              "id": "line1",
+              "text": "Drop into a deep lunge",
+              "timeStart": 2.1,
+              "timeEnd": 3.5,
+              "region": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.3329,
+                "height": 1.0
+              }
+            },
+            {
+              "id": "line2",
+              "text": "Hold low, then rise up",
+              "timeStart": 3.6,
+              "timeEnd": 5.0,
+              "region": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.3329,
+                "height": 1.0
+              }
+            }
+          ]
+        }
+      },
+      "second": {
+        "code": "v019b",
+        "src": "media/trial_019_b.mp4",
+        "groundTruth": {
+          "durationSeconds": 5,
+          "canvas": {
+            "width": 832,
+            "height": 480
+          },
+          "subjectRegion": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.667,
+            "height": 1.0
+          },
+          "events": [
+            {
+              "id": "headline",
+              "text": "Standing Side Bend",
+              "timeStart": 0.3,
+              "timeEnd": 2.4,
+              "region": {
+                "x": 0.667,
+                "y": 0.0,
+                "width": 0.333,
+                "height": 1.0
+              }
+            },
+            {
+              "id": "line1",
+              "text": "Reach up, then lean over",
+              "timeStart": 2.5,
+              "timeEnd": 5.0,
+              "region": {
+                "x": 0.667,
+                "y": 0.0,
+                "width": 0.333,
+                "height": 1.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "trial_020",
+      "itemId": "sample_020",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.0,
+          "y": 0.42,
+          "width": 1.0,
+          "height": 0.58
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "Learn Portuguese: Sol",
+            "timeStart": 0.0,
+            "timeEnd": 1.67,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.42
+            }
+          },
+          {
+            "id": "line1",
+            "text": "Sol = Sun",
+            "timeStart": 1.67,
+            "timeEnd": 3.33,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.42
+            }
+          },
+          {
+            "id": "line2",
+            "text": "Say it: Sol",
+            "timeStart": 3.33,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.42
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v020a",
+        "src": "media/trial_020_a.mp4"
+      },
+      "second": {
+        "code": "v020b",
+        "src": "media/trial_020_b.mp4"
+      }
+    },
+    {
+      "id": "trial_021",
+      "itemId": "sample_021",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": {
+          "x": 0.36,
+          "y": 0.0,
+          "width": 0.64,
+          "height": 1.0
+        },
+        "events": [
+          {
+            "id": "headline",
+            "text": "George Washington",
+            "timeStart": 0.5,
+            "timeEnd": 2.5,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.36,
+              "height": 1.0
+            }
+          },
+          {
+            "id": "line1",
+            "text": "The first president of the United States",
+            "timeStart": 2.6,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 0.36,
+              "height": 1.0
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v021a",
+        "src": "media/trial_021_a.mp4"
+      },
+      "second": {
+        "code": "v021b",
+        "src": "media/trial_021_b.mp4"
+      }
+    },
+    {
+      "id": "trial_022",
+      "itemId": "sample_022",
+      "groundTruth": {
+        "durationSeconds": 5,
+        "canvas": {
+          "width": 832,
+          "height": 480
+        },
+        "subjectRegion": null,
+        "events": [
+          {
+            "id": "headline",
+            "text": "Grand Canyon",
+            "timeStart": 0.5,
+            "timeEnd": 2.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.3
+            }
+          },
+          {
+            "id": "line1",
+            "text": "Carved by the Colorado River",
+            "timeStart": 2.1,
+            "timeEnd": 3.5,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.3
+            }
+          },
+          {
+            "id": "line2",
+            "text": "Visit the West Rim at sunrise",
+            "timeStart": 3.6,
+            "timeEnd": 5.0,
+            "region": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1.0,
+              "height": 0.3
+            }
+          }
+        ]
+      },
+      "first": {
+        "code": "v022a",
+        "src": "media/trial_022_a.mp4"
+      },
+      "second": {
+        "code": "v022b",
+        "src": "media/trial_022_b.mp4"
+      }
+    }
+  ]
+}
